@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on 爱搞机的学生</title>
+        <link>https://bilixuesheng.github.io/xuesheng/post/</link>
+        <description>Recent content in Posts on 爱搞机的学生</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>XUESHENG</copyright>
+        <lastBuildDate>Thu, 31 Jul 2025 21:34:55 +0800</lastBuildDate><atom:link href="https://bilixuesheng.github.io/xuesheng/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>【补档】Animate（原Flash）动画绘制中的V-Cam相机文件与源码分享</title>
+        <link>https://bilixuesheng.github.io/xuesheng/p/flash-vcam/</link>
+        <pubDate>Thu, 31 Jul 2025 21:34:55 +0800</pubDate>
+        
+        <guid>https://bilixuesheng.github.io/xuesheng/p/flash-vcam/</guid>
+        <description>&lt;img src="https://bilixuesheng.github.io/xuesheng/p/flash-vcam/vcam.png" alt="Featured image of post 【补档】Animate（原Flash）动画绘制中的V-Cam相机文件与源码分享" /&gt;&lt;div style=&#34;border:1px solid #0164C6; padding:10px; background:#;&#34;&gt;
+&lt;strong&gt;本期资源下载    
+&lt;/strong&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;button type=&#34;button&#34; style=&#34;color: green;&#34; onclick=&#34;window.location.href=&#39;https://files.zohopublic.com.cn/public/workdrive-public/download/kpgnrd52971d6221f485d81ac8f3cebbfcb70?x-cli-msg=%7B%22linkId%22%3A%221HwIiYVrdt7-36oM7%22%2C%22isFileOwner%22%3Afalse%2C%22version%22%3A%221.0%22%2C%22isWDSupport%22%3Afalse%7D&#39;&#34;&gt;
+&lt;p&gt;AS3.0版下载&lt;/p&gt;
+&lt;/button&gt;
+&lt;button type=&#34;button&#34; style=&#34;color: green;&#34; onclick=&#34;window.location.href=&#39;https://files.zohopublic.com.cn/public/workdrive-public/download/kpgnr8253e12c5b1f4c7d978fe81a3164ee54?x-cli-msg=%7B%22linkId%22%3A%221HwIiYVrdt8-36oM7%22%2C%22isFileOwner%22%3Afalse%2C%22version%22%3A%221.0%22%2C%22isWDSupport%22%3Afalse%7D&#39;&#34;&gt;
+&lt;p&gt;AS2.0版下载&lt;/p&gt;
+&lt;/button&gt;
+&lt;button type=&#34;button&#34; style=&#34;color: black;&#34; onclick=&#34;window.location.href=&#39;https://github.com/bilixuesheng/Flash-Animate-V-Cam/&#39;&#34;&gt;
+&lt;p&gt;GitHub仓库&lt;/p&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;strong&gt;这次重新发布flash vcam其实是一次补档，因为原来我发在哔哩哔哩的链接不小心被我删了，现在我重新发在这里。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;您除了可以从上方的按钮直接下载对应的文件，如果您的Flash支持AS3，那么您可以更容易的自定义您的V-Cam形状，因为我保留了AS3的代码并展示在了下方。
+AS3文件的V-Cam元件造型和代码是我自己编写和修改的。&lt;/p&gt;
+&lt;p&gt;V-Cam AS3版本元件源代码：&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code class=&#34;language-Flash&#34; data-lang=&#34;Flash&#34;&gt;var cameraTrans:Transform = new Transform(this);
+var stageTrans:Transform = new Transform(parent);
+visible = false;
+
+stage.addEventListener(Event.ENTER_FRAME, updateStage);
+function updateStage(...rest) {
+		parent.filters = filters;
+		stageTrans.colorTransform = cameraTrans.colorTransform;
+		var stageMatrix:Matrix = cameraTrans.matrix;
+		stageMatrix.invert();
+		stageMatrix.translate(stage.stageWidth*.5, stage.stageHeight*.5);
+		stageTrans.matrix = stageMatrix;
+};
+updateStage();
+
+addEventListener(Event.REMOVED_FROM_STAGE, resetStage);
+function resetStage(...rest) {
+		stage.removeEventListener(Event.ENTER_FRAME, updateStage);
+		stageTrans.matrix = new Matrix();
+		stageTrans.colorTransform = new ColorTransform();
+		parent.filters = new Array();
+}
+&lt;/code&gt;&lt;/pre&gt;&lt;h4 id=&#34;详细讲解&#34;&gt;详细讲解
+&lt;/h4&gt;&lt;button type=&#34;button&#34; style=&#34;color: #E736A9;&#34; onclick=&#34;window.location.href=&#39;&#39;&#34;&gt;
+无
+&lt;/button&gt;</description>
+        </item>
+        <item>
+        <title>修改必剪卸载程序UI？必剪变得好叛逆！小破站出品，就很&#34;不同&#34;</title>
+        <link>https://bilixuesheng.github.io/xuesheng/p/bili-cutui/</link>
+        <pubDate>Mon, 26 Aug 2024 21:59:23 +0800</pubDate>
+        
+        <guid>https://bilixuesheng.github.io/xuesheng/p/bili-cutui/</guid>
+        <description>&lt;img src="https://bilixuesheng.github.io/xuesheng/p/bili-cutui/helena-hertz-wWZzXlDpMog-unsplash.jpg" alt="Featured image of post 修改必剪卸载程序UI？必剪变得好叛逆！小破站出品，就很&#34;不同&#34;" /&gt;&lt;div style=&#34;border:1px solid #0164C6; padding:10px; background:#;&#34;&gt;
+&lt;strong&gt;本期资源下载    
+&lt;/strong&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;button type=&#34;button&#34; style=&#34;color: green;&#34; onclick=&#34;window.location.href=&#39;https://files.zohopublic.com.cn/public/workdrive-public/download/kpgnraac59feb01de4d0fae625a5af5d76ead?x-cli-msg=%7B%22linkId%22%3A%221HwIiYVrb86-36oM7%22%2C%22isFileOwner%22%3Afalse%2C%22version%22%3A%221.0%22%2C%22isWDSupport%22%3Afalse%7D&#39;&#34;&gt;
+&lt;p&gt;点击下载&lt;/p&gt;
+&lt;/button&gt;
+&lt;button type=&#34;button&#34; style=&#34;color: black;&#34; onclick=&#34;window.location.href=&#39;https://xuesheng666.lanzn.com/ixObU28ftt5e&#39;&#34;&gt;
+&lt;p&gt;备用网盘下载&lt;/p&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;h4 id=&#34;我最近发现在必剪的软件目录下有很多的图片&#34;&gt;我最近发现在必剪的软件目录下，有很多的图片
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;https://i.postimg.cc/zfXbtqdh/1.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;1.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;其中有一些带有 uninstall （卸载） ，很明显，&lt;strong&gt;他们与卸载程序有关&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.postimg.cc/7YkLtxhL/2.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;2.png&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://i.postimg.cc/7ZBYL0VC/3.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;3.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;于是我对这些ui进行了修改&#34;&gt;于是我对这些UI进行了修改
+&lt;/h4&gt;&lt;p&gt;&lt;img src=&#34;https://i.postimg.cc/76zxXcy7/4.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;4.png&#34;
+	
+	
+&gt;
+&lt;img src=&#34;https://i.postimg.cc/wMc9YmMj/5.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;5.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;PS：左上角的必剪变成了必装。&lt;/p&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.postimg.cc/PfmXwByn/6.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;6.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h4 id=&#34;详细讲解&#34;&gt;详细讲解
+&lt;/h4&gt;&lt;button type=&#34;button&#34; style=&#34;color: #E736A9;&#34; onclick=&#34;window.location.href=&#39;https://www.bilibili.com/video/BV1GVs7esEAg/&#39;&#34;&gt;
+转到哔哩哔哩视频
+&lt;/button&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
