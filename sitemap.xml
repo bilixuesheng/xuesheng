@@ -1,39 +1,55 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+  <!-- Created By http://www.zhetao.com/sitemapcreator,  URLs: 10 Generated at: 2025-08-02 17:01:14 -->
+
+  <url>
+    <loc>https://bilixuesheng.github.io/xuesheng</loc>
+    <priority>1.00</priority>
+  </url>
+
   <url>
     <loc>https://bilixuesheng.github.io/xuesheng/</loc>
-    <lastmod>2025-07-31T21:34:55+08:00</lastmod>
-  </url><url>
-    <loc>https://bilixuesheng.github.io/xuesheng/p/flash-vcam/</loc>
-    <lastmod>2025-07-31T21:34:55+08:00</lastmod>
-  </url><url>
-    <loc>https://bilixuesheng.github.io/xuesheng/categories/</loc>
-    <lastmod>2025-07-31T21:34:55+08:00</lastmod>
-  </url><url>
-    <loc>https://bilixuesheng.github.io/xuesheng/post/</loc>
-    <lastmod>2025-07-31T21:34:55+08:00</lastmod>
-  </url><url>
-    <loc>https://bilixuesheng.github.io/xuesheng/categories/%E8%B5%84%E6%BA%90/</loc>
-    <lastmod>2025-07-31T21:34:55+08:00</lastmod>
-  </url><url>
-    <loc>https://bilixuesheng.github.io/xuesheng/p/bili-cutui/</loc>
-    <lastmod>2024-08-26T21:59:23+08:00</lastmod>
-  </url><url>
-    <loc>https://bilixuesheng.github.io/xuesheng/page/</loc>
-    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bilixuesheng.github.io/xuesheng/archives/</loc>
-    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://bilixuesheng.github.io/xuesheng/tags/bili-cut/</loc>
-  </url><url>
-    <loc>https://bilixuesheng.github.io/xuesheng/tags/</loc>
-  </url><url>
-    <loc>https://bilixuesheng.github.io/xuesheng/tags/vcam/</loc>
-  </url><url>
-    <loc>https://bilixuesheng.github.io/xuesheng/%E5%85%B3%E4%BA%8E%E6%88%91/</loc>
-  </url><url>
-    <loc>https://bilixuesheng.github.io/xuesheng/search/</loc>
+    <priority>1.00</priority>
   </url>
+
+  <url>
+    <loc>https://bilixuesheng.github.io/xuesheng/%E5%85%B3%E4%BA%8E%E6%88%91/</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://bilixuesheng.github.io/xuesheng/archives/</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://bilixuesheng.github.io/xuesheng/search/</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://bilixuesheng.github.io/xuesheng/categories/%E8%B5%84%E6%BA%90/</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://bilixuesheng.github.io/xuesheng/p/flash-vcam/</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://bilixuesheng.github.io/xuesheng/p/bili-cutui/</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://bilixuesheng.github.io/xuesheng/tags/vcam/</loc>
+    <priority>1.00</priority>
+  </url>
+
+  <url>
+    <loc>https://bilixuesheng.github.io/xuesheng/tags/bili-cut/</loc>
+    <priority>0.82</priority>
+  </url>
+
 </urlset>
